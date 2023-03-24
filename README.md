@@ -3,7 +3,7 @@
 ## installation
 ### clone repo
 ```bash	
-git clone 
+git clone https://github.com/Mitchel-DS/progressive-web-app
 ```
 
 ### package install
