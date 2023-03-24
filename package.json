@@ -2,10 +2,13 @@
   "name": "progressive-web-app",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "nodemon server.js",
-    "scss": "sass --watch scss/app.scss public/css/app.css --style compressed"
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "scss": "sass --watch scss/app.scss public/css/app.css --style compressed",
+    "dev-scss": "npm run dev & npm run scss"
   },
   "repository": {
     "type": "git",
@@ -21,6 +24,7 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "express-handlebars": "^7.0.2",
+    "node-fetch": "^3.3.1",
     "nodemon": "^2.0.21",
     "sass": "^1.59.3"
   }
