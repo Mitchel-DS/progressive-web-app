@@ -15,5 +15,4 @@ const fetchData = async (req, res) => {
 	}
 };
 
-
 export { fetchData };

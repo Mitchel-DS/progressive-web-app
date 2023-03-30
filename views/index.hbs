@@ -1,19 +1,19 @@
 <div id="loading">
-      <img src="assets/Personal_logo.png" alt="">
+      <img src="assets/Personal_logo.png" alt="Personal logo Mitchel Staal">
       <p>Welcome, please wait.</p>
     </div>
 
     <div id="app">
       <h1><a href="#">Hello.</a></h1>
       <p>My name is Mitchel Staal. These are my projects.</p>
-      <img src="assets/nanami.png" alt="">
+      <img src="assets/Personal_logo.png" alt="Personal logo Mitchel Staal">
       <section>
         <h2>My Projects</h2>
         <h3 class="repoAmount"></h3>
           <ul>
 			{{#each data}}
 			<li>
-			  <a href="{{html_url}}">
+			  <a href="/details/{{name}}">
         <h3>{{name}}</h3>
 			  <p>{{description}}</p>
         <p>{{topics}}</p>
@@ -23,8 +23,5 @@
 			{{/each}}
 		  </ul>
       </section>
-      <footer>
-        <p>Copyright © 2023 <a href="https://github.com/Mitchel-DS">Mitchel Staal</a></p>  
-      </footer>
     </div>
     <script type="module" src="js/main.js"></script>
